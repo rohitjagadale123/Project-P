@@ -1,0 +1,75 @@
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(242, 241, 241);
+    border: none;
+  
+  
+    
+  }
+  
+ 
+  
+  .img {
+    height: 79px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .nav-item {
+    cursor: pointer;
+    padding: 10px;
+   
+    
+  }
+  
+  .nav-item:hover {
+    color: #ccc;
+  }
+
+.sign-Out-btn>a{
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+   
+   
+}
+
+.shimmer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-left: 122px;
+    margin-top: 10px;
+  }
+  
+  .shimmer-card {
+    width: 250px;
+    height: 400px;
+    background-color: #f0f0f08b;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .shimmer-image {
+    height: 140px;
+    background-color: #e0e0e0a2;
+  }
+  
+  .shimmer-lines {
+    height: 15px;
+    margin: 10px;
+    background-color: #e0e0e07d;
+  }
+  

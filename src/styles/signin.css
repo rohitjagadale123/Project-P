@@ -1,0 +1,70 @@
+.signin-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+    height: 100%;
+    width: 100%;
+}
+
+.email{
+    padding: 10px;
+    margin-bottom: 20px;
+
+    
+}
+.password{
+    padding: 10px;
+
+
+}
+.name{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.btn-container{
+    margin-top: 20px;
+}
+
+.email-label{
+    align-self: flex-start;
+}
+
+.password-label{
+    align-self: flex-start;
+}
+.name-label{
+    align-self: flex-start;
+}
+
+.signin-btn{
+    padding: 10px;
+    border-radius: 8px;
+    width: 93px;
+    background-color: purple;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.signin-footer{
+    cursor: pointer;
+    margin-top: 10px;
+}
